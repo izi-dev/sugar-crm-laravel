@@ -1,0 +1,20 @@
+{
+  "name": "mrcat29/sugar-crm-laravel",
+  "description": "ORM SUGAR CRM LARAVEL",
+  "type": "package",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "freddy vargas",
+      "email": "freddy@blinsoft.com"
+    }
+  ],
+  "require": {
+    "mrcat29/sugar-crm-orm-api": "^0.0.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "MrCat\\SugarCrmLaravel\\": "src/mrcat"
+    }
+  }
+}
